@@ -54,7 +54,7 @@ open class GameConsoleVC: DominoVC
         buttonStack.distribution = .fillEqually
     }
 
-    public func addButton(named title: String, action: Selector?, tinted color: UIColor = .black) -> UIButton {
+    public func addButton(named title: String, action: Selector?, tinted color: UIColor = .blue) -> UIButton {
         let newButton = UIButton()
         newButton.setTitleColor(color, for: .normal)
         newButton.setTitle(title, for: .normal)
