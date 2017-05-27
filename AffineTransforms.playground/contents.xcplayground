@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <playground version='6.0' target-platform='ios' display-mode='rendered'>
     <pages>
+        <page name='Xcode Setup'/>
         <page name='Button Game'/>
         <page name='Code Game'/>
         <page name='Code Game - Rotation'/>
         <page name='Concatenating Transforms'/>
         <page name='Next Actions'/>
-        <page name='Just a Duck'/>
     </pages>
 </playground>
