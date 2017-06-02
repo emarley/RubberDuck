@@ -1,8 +1,5 @@
 //: [Previous](@previous)
 
-// Created by Liz Marley
-// March 2017
-
 import UIKit
 import PlaygroundSupport
 

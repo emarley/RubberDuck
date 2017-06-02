@@ -1,7 +1,7 @@
 /*: 
  [Previous](@previous)
  
- So you think you're all done, eh? Here's some optional quests.
+ So you think you're all done? Here's some optional quests.
 
  * Replace the duck with your social media avatar or a favorite Sesame Street character.
  

@@ -1,8 +1,5 @@
 //: [Previous](@previous)
 
-// Created by Liz Marley
-// March 2017
-
 import UIKit
 import PlaygroundSupport
 
@@ -25,4 +22,4 @@ duck.transform = transform
 
 // If you get stuck, maybe go back and try this puzzle in the first playground page again?
 
-//: [Now what?](@next)
+//: [Next](@next)
