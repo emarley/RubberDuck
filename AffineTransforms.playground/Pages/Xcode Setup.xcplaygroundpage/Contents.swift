@@ -16,6 +16,7 @@
  * **View > Assistant Editor > Show Assistant Editor**
 
  * At the top of the Assistant Editor, choose **Timeline** (not **Manual**). You should see a duck on the right hand half of your screen.
+ * When you're finished with each page, click the blue 'Next' in the bottom left to move on to the next exercise. (Hey, look, here's one of those 'Next' buttons now!)
 
  [Next](@next)
  */
