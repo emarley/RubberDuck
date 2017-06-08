@@ -110,29 +110,29 @@ public class TransformPuzzleVC: GameConsoleVC
         _ = self.addButton(named: "Reset", action: #selector(self.reset), tinted: .red)
     }
 
-    func translateX() {
+    @objc func translateX() {
         enqueue(CGAffineTransform(translationX: 80, y: 0))
     }
 
-    func translateY() {
+    @objc func translateY() {
         enqueue(CGAffineTransform(translationX: 0, y: 80))
     }
 
-    func rotatePlus() {
+    @objc func rotatePlus() {
         enqueue(CGAffineTransform(rotationAngle: CGFloat.pi/4))
     }
 
-    func rotateMinus() {
+    @objc func rotateMinus() {
         enqueue(CGAffineTransform(rotationAngle: -CGFloat.pi/4))
     }
 
-    func reset() {
+    @objc func reset() {
         queue = []
         duck.transform = CGAffineTransform.identity
         self.backgroundView.setNeedsLayout()
     }
 
-    func startNextPuzzle() {
+    @objc func startNextPuzzle() {
         currentPuzzleIndex += 1
         if currentPuzzleIndex <= puzzles.count {
             start()
